@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.title{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 48px;
+    text-align: center;
+    border: 1px solid black;
+    outline: 3px solid black;
+    padding: 20px;
+}
