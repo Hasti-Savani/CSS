@@ -1,0 +1,54 @@
+header > h1:nth-of-type(7){
+    background-color: blue;
+}
+
+header > h1:last-child{
+    background-color: red;
+}
+
+header > div > h1:nth-of-type(2){
+    background-color: green;
+}
+
+div > section > div > h1:first-child{
+    background-color: orange;
+}
+
+div > section > div > h1:nth-child(2){
+    background-color: pink;
+} 
+
+header > section > div > h1:nth-last-of-type(4){
+    background-color: purple;
+}
+
+span > h1:nth-last-of-type(2){
+    background-color: brown;
+}
+
+header > h1:nth-of-type(10){
+    background-color: darkgray;
+} 
+
+div + h1{
+    background-color: cadetblue;
+}
+
+section + h1{
+    background-color: aqua;
+}
+
+div ~ p:nth-last-of-type(1){
+    background-color: black;
+    color:white;
+}
+
+div ~ p:nth-of-type(1){
+    background-color:burlywood;
+    
+}
+
+div ~ p:nth-of-type(3){
+    background-color:burlywood;
+    
+}

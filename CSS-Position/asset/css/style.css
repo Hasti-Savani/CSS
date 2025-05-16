@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maindiv{
+    height: 700px;
+    width: 700px;
+    background-color: gray;
+    border: 2px solid black;
+    position: relative;
+}
+
+.box-1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.mbox-1{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.box-2{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.mbox-2{
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.box-3{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: auto;
+}
+
+.mbox-3{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: auto;               
+}
+
+.box-4{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.mbox-4{
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;               
+}
+
+.box-5{
+    height: 100px;
+    width: 100px;
+    background-color: slateblue;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.mbox-5{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;               
+}
+
+.box-6{
+    height: 100px;
+    width: 100px;
+    background-color: saddlebrown;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.mbox-6{
+    height: 50px;
+    width: 50px;
+    background-color: salmon;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;               
+}
+
+.box-7{
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.mbox-7{
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: auto;               
+}
+
+.box-8{
+    height: 100px;
+    width: 100px;
+    background-color: skyblue;
+    position: absolute;
+   right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.mbox-8{
+    height: 50px;
+    width: 50px;
+    background-color: palegreen;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;               
+}
+
+.box-9{
+    height: 100px;
+    width: 100px;
+    background-color: violet;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.mbox-9{
+    height: 50px;
+    width: 50px;
+    background-color: greenyellow;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: auto;               
+}
