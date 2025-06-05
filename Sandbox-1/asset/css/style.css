@@ -113,6 +113,14 @@ a {
     text-wrap: nowrap;
 }
 
+.nav-options a span {
+    font-size: 17px;
+    color: #343F52;
+    margin-left: 10px;
+    text-wrap: nowrap;
+    margin-top: 5px;
+}
+
 .nav-right {
     display: flex;
     align-items: center;
@@ -124,6 +132,10 @@ a {
 }
 
 .nav-options a:hover {
+    color: #fab758;
+}
+
+.nav-options a span:hover {
     color: #fab758;
 }
 
@@ -164,14 +176,17 @@ a {
 
 .solu-text h1 {
     color: #343f52;
-    font-size: 35px;
+    font-size: 50px;
     font-weight: bold;
     margin-bottom: 20px;
+    line-height: 57px;
 }
 
 .solu-text p {
     color: #60697b;
-    font-size: 18px;
+    font-size: 22px;
+    line-height: 34px;
+    margin: 0px 0px 35px 0px;
 }
 
 .solu-btn {
@@ -219,7 +234,7 @@ a {
     background-color: white;
 }
 
-.service-text {
+.servic .service-text {
     max-width: 700px;
     text-align: center;
     margin: auto;
@@ -228,7 +243,10 @@ a {
 .service_icon {
     height: 50px;
     width: 50px;
-    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
 }
 
 .service_card_text h4,
